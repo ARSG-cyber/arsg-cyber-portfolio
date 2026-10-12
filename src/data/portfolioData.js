@@ -9,10 +9,10 @@ export const personalInfo = {
   aboutParagraph: "I'm Abdul Rehman, a Software Engineering student at GCUF with a passion for building meaningful projects, exploring emerging technologies, and continuously improving my programming skills. I love turning ideas into real-world solutions and learning something new every day.",
   currentFocus: "MERN Stack Development",
   interests: "AI/ML, Cybersecurity, Automation",
-  email: "arsg.cyber@gmail.com",
+  email: "abdulrehmancoder877@gmail.com",
   github: "https://github.com/ARSG-cyber",
   githubUsername: "ARSG-cyber",
-  linkedin: "https://linkedin.com/in/abdulrehman",
+  linkedin: "www.linkedin.com/in/abdul-rehman-54bb25407",
   linkedinUsername: "abdulrehman",
   twitter: "https://x.com/ARSG_cyber",
 };

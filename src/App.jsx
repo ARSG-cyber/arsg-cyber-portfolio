@@ -22,7 +22,7 @@ export function App() {
     <div className="relative min-h-screen bg-[#040814] text-slate-100 selection:bg-cyan-500/30 selection:text-cyan-200">
       {/* Dynamic ambient background glow points */}
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-b from-blue-900/15 via-transparent to-transparent pointer-events-none z-0" />
-      
+
       {/* Top Navigation */}
       <Navbar
         onOpenResume={() => setIsResumeOpen(true)}

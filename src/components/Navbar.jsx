@@ -51,15 +51,14 @@ export const Navbar = ({ onOpenResume, onOpenContact }) => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? 'bg-[#040814]/85 backdrop-blur-md border-b border-blue-500/15 py-3 shadow-lg shadow-black/40'
           : 'bg-transparent py-5'
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          
+
           {/* Brand Logo & Name */}
           <a
             href="#home"
@@ -70,8 +69,8 @@ export const Navbar = ({ onOpenResume, onOpenContact }) => {
             <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500/20 via-blue-600/20 to-purple-600/30 border border-cyan-400/30 shadow-[0_0_15px_rgba(56,189,248,0.2)] group-hover:border-cyan-400/60 transition-all duration-300">
               {/* Cyber AR Monogram SVG */}
               <svg className="w-6 h-6 transform group-hover:scale-105 transition-transform" viewBox="0 0 100 100" fill="none">
-                <path d="M22 75 L38 25 L48 25 L40 50 L60 50 L56 62 L36 62 L32 75 Z" fill="#38BDF8"/>
-                <path d="M50 25 L72 25 C82 25 88 31 88 40 C88 47 83 53 74 55 L88 75 L74 75 L62 57 L50 57 Z M62 37 L62 47 L70 47 C74 47 77 45 77 42 C77 39 74 37 70 37 Z" fill="#C084FC"/>
+                <path d="M22 75 L38 25 L48 25 L40 50 L60 50 L56 62 L36 62 L32 75 Z" fill="#38BDF8" />
+                <path d="M50 25 L72 25 C82 25 88 31 88 40 C88 47 83 53 74 55 L88 75 L74 75 L62 57 L50 57 Z M62 37 L62 47 L70 47 C74 47 77 45 77 42 C77 39 74 37 70 37 Z" fill="#C084FC" />
               </svg>
             </div>
             <div className="flex flex-col">
@@ -90,11 +89,10 @@ export const Navbar = ({ onOpenResume, onOpenContact }) => {
                   key={link.label}
                   href={link.href}
                   onClick={(e) => handleNavClick(e, link.href)}
-                  className={`relative px-3.5 py-1.5 text-sm font-medium transition-all duration-200 rounded-full ${
-                    isActive
+                  className={`relative px-3.5 py-1.5 text-sm font-medium transition-all duration-200 rounded-full ${isActive
                       ? 'text-cyan-400 font-semibold'
                       : 'text-slate-300 hover:text-white hover:bg-slate-800/50'
-                  }`}
+                    }`}
                 >
                   {link.label}
                   {isActive && (
